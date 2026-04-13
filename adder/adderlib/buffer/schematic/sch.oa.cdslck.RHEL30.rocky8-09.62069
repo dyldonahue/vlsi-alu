@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      hiqbal
+HostName                       rocky8-09
+ProcessIdentifier              62069
+ProcessCreationTime_UTC        1773846582
+ProcessCreationTime_Readable   Wed Mar 18 11:09:42 2026 EDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /Users/Student/hiqbal/VLSI/adderlib/buffer/schematic/sch.oa.cdslck
+TimeEditLocked                 Wed Mar 18 12:35:56 2026 EDT
