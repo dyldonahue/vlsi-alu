@@ -1,0 +1,3 @@
+DEFINE adderlib ./adderlib
+DEFINE ShifterLib ./ShifterLib
+DEFINE logic_unit ./logic_unit

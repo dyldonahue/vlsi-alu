@@ -1,0 +1,20 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 06/27/2019 20:50 (sjfhw027) $
+\o Sub version:		sub-version  s043 
+\o Arguments:		-unmapped -mpssession virtuoso2986890 -mpshost rocky8-13 
+\o Working Directory:	rocky8-13:/Users/Student/hiqbal/VLSI/vlsi-alu
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o changeWorkingDir("/Users/Student/hiqbal/VLSI/vlsi-alu") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/Users/Student/hiqbal/VLSI/vlsi-alu/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(895 58 602 491))
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)
