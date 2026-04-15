@@ -1,0 +1,11 @@
+hp5000n|HP LaserJet 5000N: \
+        :manufacturer=Hewlett-Packard: \
+        :type=postscript1: \
+        :spool=lpr -P hp5000n: \
+        :query=lpq -P hp5000n: \
+        :remove=lprm -P hp5000n: \
+        :maximumPages#30: \
+        :resolution#300: \
+        :paperSize="A4" 2332 3360 60 60: \
+        :paperSize="A" 2400 3150 75 75:
+

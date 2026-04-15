@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 06/27/2019 20:50 (sjfhw027) $
 \o Sub version:		sub-version  s043 
-\o Arguments:		-unmapped -mpssession virtuoso2986890 -mpshost rocky8-13 
+\o Arguments:		-unmapped -mpssession virtuoso3045605 -mpshost rocky8-13 
 \o Working Directory:	rocky8-13:/Users/Student/hiqbal/VLSI/vlsi-alu
 \o 64-bit offsets
 \o Qt version: 		5.9.1
@@ -12,9 +12,77 @@
 \o MPS service: map window
 \o Library Manager customization server connected.
 \a nrSetCurrentWindow(cdsLibManager)
+\w Warning: The directory: '/ECEnet/Apps1/linux/cad12/tools/PDKs/gpdk045_v_3_5/gpdk045_pvs' does not exist
+\w 	but was defined in libFile '/Users/Student/hiqbal/VLSI/vlsi-alu/cds.lib' for Lib 'gpdk045_pvs'.
 \a nrResizeWindow(cdsLibManager list(895 58 602 491))
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a _lmgrCloseIconify("cdsLibManager" 1)
-\o MPS service: shutdown
-\o libManager is exiting.
-\a exit(0)
+\a cdsLibManager->libListBox->value = "alulib"
+\a cdsLibManager->libLineEdit->value = "alulib"
+\a lmgrLogShowPopup("mainListPopup0" 20 77 2 "alulib")
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(873 88 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(1047 119 278 289))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting 1 library.
+\o Deleting library "alulib".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1052 234 268 133))
+\a nrResizeWindow(deleteForm list(873 14 627 425))
+\o Deleted library 'alulib'.
+\o Delete of library "alulib" succeeded.
+\o Deletion of library done.
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: The directory: '/ECEnet/Apps1/linux/cad12/tools/PDKs/gpdk045_v_3_5/gpdk045_pvs' does not exist
+\w 	but was defined in libFile '/Users/Student/hiqbal/VLSI/vlsi-alu/cds.lib' for Lib 'gpdk045_pvs'.
+\w Warning: The directory: '/ECEnet/Apps1/linux/cad12/tools/PDKs/gpdk045_v_3_5/gpdk045_pvs' does not exist
+\w 	but was defined in libFile '/Users/Student/hiqbal/VLSI/vlsi-alu/cds.lib' for Lib 'gpdk045_pvs'.
+\a nrResizeWindow(workingDialogForm list(1052 160 268 133))
+\a cdsLibManager->FileNewLibButton->value = t
+\a nrSetWindowVisibility(NewLibShell "show")
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\a nrResizeWindow(NewLibShell list(933 27 507 559))
+\a NewLibShell->newLibNameText->value = "alulib"
+\a nrDialogAccept(NewLibShell)
+\a NewLibShell->newLibOKButton->value = t
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1052 234 274 133))
+\o Created new library "alulib" at /Users/Student/hiqbal/VLSI/vlsi-alu/alulib.
+\a nrSetCurrentWindow(cdsLibManager)
+\w Warning: The directory: '/ECEnet/Apps1/linux/cad12/tools/PDKs/gpdk045_v_3_5/gpdk045_pvs' does not exist
+\w 	but was defined in libFile '/Users/Student/hiqbal/VLSI/vlsi-alu/cds.lib' for Lib 'gpdk045_pvs'.
+\a nrResizeWindow(workingDialogForm list(1052 197 274 133))
+\w Warning: The directory: '/ECEnet/Apps1/linux/cad12/tools/PDKs/gpdk045_v_3_5/gpdk045_pvs' does not exist
+\w 	but was defined in libFile '/Users/Student/hiqbal/VLSI/vlsi-alu/cds.lib' for Lib 'gpdk045_pvs'.
+\a nrResizeWindow(NewLibShell list(933 -10 507 559))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\w Warning: The directory: '/ECEnet/Apps1/linux/cad12/tools/PDKs/gpdk045_v_3_5/gpdk045_pvs' does not exist
+\w 	but was defined in libFile '/Users/Student/hiqbal/VLSI/vlsi-alu/cds.lib' for Lib 'gpdk045_pvs'.
+\w Warning: The directory: '/ECEnet/Apps1/linux/cad12/tools/PDKs/gpdk045_v_3_5/gpdk045_pvs' does not exist
+\w 	but was defined in libFile '/Users/Student/hiqbal/VLSI/vlsi-alu/cds.lib' for Lib 'gpdk045_pvs'.
+\w Warning: The directory: '/ECEnet/Apps1/linux/cad12/tools/PDKs/gpdk045_v_3_5/gpdk045_pvs' does not exist
+\w 	but was defined in libFile '/Users/Student/hiqbal/VLSI/vlsi-alu/cds.lib' for Lib 'gpdk045_pvs'.
+\w Warning: The directory: '/ECEnet/Apps1/linux/cad12/tools/PDKs/gpdk045_v_3_5/gpdk045_pvs' does not exist
+\w 	but was defined in libFile '/Users/Student/hiqbal/VLSI/vlsi-alu/cds.lib' for Lib 'gpdk045_pvs'.
+\w Warning: The directory: '/ECEnet/Apps1/linux/cad12/tools/PDKs/gpdk045_v_3_5/gpdk045_pvs' does not exist
+\w 	but was defined in libFile '/Users/Student/hiqbal/VLSI/vlsi-alu/cds.lib' for Lib 'gpdk045_pvs'.
+\w Warning: The directory: '/ECEnet/Apps1/linux/cad12/tools/PDKs/gpdk045_v_3_5/gpdk045_pvs' does not exist
+\w 	but was defined in libFile '/Users/Student/hiqbal/VLSI/vlsi-alu/cds.lib' for Lib 'gpdk045_pvs'.
+\w Warning: The directory: '/ECEnet/Apps1/linux/cad12/tools/PDKs/gpdk045_v_3_5/gpdk045_pvs' does not exist
+\w 	but was defined in libFile '/Users/Student/hiqbal/VLSI/vlsi-alu/cds.lib' for Lib 'gpdk045_pvs'.
+\a nrResizeWindow(cdsLibManager list(198 31 602 491))
+\a nrResizeWindow(cdsLibManager list(893 57 602 491))
+\w Warning: The directory: '/ECEnet/Apps1/linux/cad12/tools/PDKs/gpdk045_v_3_5/gpdk045_pvs' does not exist
+\w 	but was defined in libFile '/Users/Student/hiqbal/VLSI/vlsi-alu/cds.lib' for Lib 'gpdk045_pvs'.

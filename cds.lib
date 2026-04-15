@@ -1,3 +1,9 @@
 DEFINE adderlib ./adderlib
 DEFINE ShifterLib ./ShifterLib
 DEFINE logic_unit ./logic_unit
+#Removed by ddDeleteObj: DEFINE alulib /Users/Student/hiqbal/VLSI/vlsi-alu/alulib
+SOFTINCLUDE $CDSHOME/share/cdssetup/cds.lib
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+DEFINE gpdk045 $gpdk045_DIR/gpdk045
+DEFINE gpdk045_pvs $gpdk045_DIR/gpdk045_pvs
+DEFINE alulib /Users/Student/hiqbal/VLSI/vlsi-alu/alulib
